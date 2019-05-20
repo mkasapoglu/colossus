@@ -132,7 +132,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'colossus/static'),
 ]
 
-
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 # ==============================================================================
 # MEDIA FILES SETTINGS
 # ==============================================================================
