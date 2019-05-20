@@ -29,7 +29,6 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.humanize',
 
-    'debug_toolbar',
     'crispy_forms',
 
     'colossus.apps.accounts',
